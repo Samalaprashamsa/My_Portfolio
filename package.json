@@ -1,5 +1,5 @@
 {
-  "homepage": "https://samalaprashamsa.github.io/fashion-ecommerce-website/",
+  "homepage": "https://github.com/Samalaprashamsa/My_Portfolio.git",
   "name": "website",
   "version": "0.1.0",
   "private": true,
@@ -44,6 +44,7 @@
     ]
   },
   "devDependencies": {
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11"
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "gh-pages": "^6.1.1"
   }
 }
