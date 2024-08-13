@@ -1,19 +1,28 @@
 {
   "files": {
-    "main.css": "./static/css/main.b86d1dfa.css",
-    "main.js": "./static/js/main.27905f54.js",
+    "main.css": "./static/css/main.2c40da69.css",
+    "main.js": "./static/js/main.e65bd1ad.js",
     "static/js/787.71e672d5.chunk.js": "./static/js/787.71e672d5.chunk.js",
+    "static/media/fa-solid-900.ttf": "./static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
     "static/media/project1.png": "./static/media/project1.eff1b609e2673df0bed2.png",
     "static/media/project3.png": "./static/media/project3.34dd24aec14d280eab9d.png",
+    "static/media/fa-brands-400.ttf": "./static/media/fa-brands-400.0ff70dcbf135d859ebf3.ttf",
+    "static/media/fa-solid-900.woff2": "./static/media/fa-solid-900.93f719f4d62bfa3e748c.woff2",
     "static/media/project2.PNG": "./static/media/project2.83b1d1ec97081dd5671d.PNG",
+    "static/media/fa-brands-400.woff2": "./static/media/fa-brands-400.bb8d5a145e22822103fb.woff2",
     "static/media/profile.jpg": "./static/media/profile.5a9e3f7b792627cdf85d.jpg",
+    "static/media/fa-regular-400.ttf": "./static/media/fa-regular-400.17a6e1aebccdbaa39e78.ttf",
+    "static/media/project4.PNG": "./static/media/project4.6565ce7f9c053e506b71.PNG",
+    "static/media/fa-regular-400.woff2": "./static/media/fa-regular-400.bc3722686635b5f86132.woff2",
+    "static/media/fa-v4compatibility.ttf": "./static/media/fa-v4compatibility.0f6cb412603527bda691.ttf",
+    "static/media/fa-v4compatibility.woff2": "./static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "./index.html",
-    "main.b86d1dfa.css.map": "./static/css/main.b86d1dfa.css.map",
-    "main.27905f54.js.map": "./static/js/main.27905f54.js.map",
+    "main.2c40da69.css.map": "./static/css/main.2c40da69.css.map",
+    "main.e65bd1ad.js.map": "./static/js/main.e65bd1ad.js.map",
     "787.71e672d5.chunk.js.map": "./static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b86d1dfa.css",
-    "static/js/main.27905f54.js"
+    "static/css/main.2c40da69.css",
+    "static/js/main.e65bd1ad.js"
   ]
 }
