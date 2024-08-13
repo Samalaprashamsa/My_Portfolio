@@ -1,27 +1,49 @@
 import React from 'react';
-import './Skills.css';
+import { FaPython, FaJava, FaDatabase, FaCode, FaTools } from 'react-icons/fa'; // Removed duplicate FaDatabase import
+import './Skills.css'
 
-function Skills() {
+const skillsData = {
+  ProgrammingLanguages: {
+    icon: <FaCode />,
+    items: ['Python', 'JavaScript','C++']
+  },
+  LibrariesFrameworks: {
+    icon: <FaPython />,
+    items: ['Pandas', 'NumPy', 'Matplotlib', 'Scikit-learn', 'Seaborn']
+  },
+  Databases: {
+    icon: <FaDatabase />,
+    items: ['SQL', 'NoSQL']
+  },
+  Tools: {
+    icon: <FaTools />,
+    items: ['Power BI', 'Excel', 'Tableau', 'Jupyter', 'Canva']
+  },
+  SoftSkills: {
+    icon: <FaTools />, // Adjust or use a different icon if needed
+    items: ['Problem-solving', 'Critical thinking', 'Communication', 'Creativity', 'Adaptability', 'Fast learning']
+  }
+};
+
+const Skills = () => {
   return (
-    <section id="skills" className="skills">
+    <section className="skills">
       <h2>Skills</h2>
-      <div className="skills-content">
-        <h3>Technical Skills:</h3>
-        <ul>
-          <li><strong>Programming Languages:</strong> Python, SQL, C++</li>
-          <li><strong>Tools:</strong> Power BI, Excel, Jupyter</li>
-          <li><strong>Libraries/Frameworks:</strong> Pandas, NumPy, Matplotlib, Scikit-learn, Seaborn</li>
-          <li><strong>Database Management:</strong> SQL, NoSQL</li>
-          <li><strong>Machine Learning:</strong> Proficient in developing and evaluating machine learning models</li>
-          <li><strong>Others:</strong> Data Cleaning, Data Visualization, Statistical Analysis</li>
-        </ul>
-        <h3>Soft Skills:</h3>
-        <ul>
-          <li>Problem-solving, critical thinking, communication, creativity, adaptability, and fast learning</li>
-        </ul>
+      <div className="skills-container">
+        {Object.keys(skillsData).map((category) => (
+          <div key={category} className="skill-category">
+            <div className="category-icon">{skillsData[category].icon}</div>
+            <h3 className="category-title">{category.replace(/([A-Z])/g, ' $1').trim()}</h3>
+            <ul className="skills-list">
+              {skillsData[category].items.map((item) => (
+                <li key={item} className="skill-item">{item}</li>
+              ))}
+            </ul>
+          </div>
+        ))}
       </div>
     </section>
   );
-}
+};
 
 export default Skills;
